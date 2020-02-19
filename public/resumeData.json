@@ -94,20 +94,20 @@
       {
         "title":"Team Pneutube",
         "category":"Duke Health Project Engineer",
-        "image":"Duke_Health.jpg",
+        "image":"Duke_Health.png",
         "url":""
       },
       {
         "title":"Game Tenting Help Center",
         "category":"Frontend Developer",
         "image":"gthc.png",
-        "url":""
+        "url":"https://github.com/GTHC"
       },
       {
         "title":"The Green Path",
         "category":"HackDuke 2019",
         "image":"Green_Logo.png",
-        "url":""
+        "url":"https://github.com/Akhan221/resource-saver"
       }
     ]
   },
