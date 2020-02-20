@@ -1,6 +1,7 @@
 {
   "main": {
-    "name":"Ahmad Khan",
+    "fullname": "Ahmad Khan",
+    "name":"Ahmad",
     "occupation":"Full Stack Developer",
     "description":"rapidly developing flexible software solutions",
     "image":"profilepic.jpg",
@@ -15,7 +16,7 @@
       "zip": ""
     },
     "website": "",
-    "resumedownload":"",
+    "resumedownload":"./images/resume.pdf",
     "social":[
       {
         "name":"facebook",
