@@ -42,10 +42,16 @@
         "school": "Duke University",
         "degree": "B.S in Computer Science",
         "graduated": "May 2022",
-        "description": "Member of Muslim Student Association, Alpha Phi Omega, Questbridge Scholar"
+        "description": "President of Game Tenting Help Center, Member of Duke Applied Machine Learning, Muslim Student Association, Alpha Phi Omega, Questbridge Scholar"
       }
     ],
     "work": [
+      {
+        "company": "Duke Office of Information Technology",
+        "title": "Software Engineer",
+        "years": "May 2020 - Present",
+        "description": "Developed web application using Ruby on Rails, jQuery, and Transact API to allow students to donate food points to those in need. Authored onboarding documenation for future developers, held daily standups to delegate programming tasks to team members"
+      },
       {
         "company": "Duke School of Medicine",
         "title": "IT Technician",
@@ -54,9 +60,9 @@
       },
       {
         "company": "GTHC: Game Tenting Help Center",
-        "title": "Frontend Developer",
+        "title": "President",
         "years": "December 2019 - Present",
-        "description": "I used ReactJS and React-router to develop the about pages for GTHC; I also set up Linux dual-boot development environments for team members and performed PR reviews with other members"
+        "description": "Responsible for developer recruiting/onboarding, application deployment, application design, task delegation among SW teams and assisting members with programming difficulties as needed"
       }
     ],
     "skills": [
