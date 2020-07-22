@@ -1,126 +1,126 @@
 {
   "main": {
     "fullname": "Ahmad Khan",
-    "name":"Ahmad",
-    "occupation":"Full Stack Developer",
-    "description":"rapidly developing flexible software solutions",
-    "image":"profilepic.jpg",
-    "bio":"I am currently an undergraduate at Duke University and am planning on a double major between Computer Science and Electrical & Computer Engineering. Coming into Duke, I already learned about computer hardware and software troubleshooting, as indicated by the Comptia A+ Certification I earned. Now I am focusing on programming skills in JavaScript, Java, and Python, as well as developing my skillset in cyber security and system administration.",
-    "contactmessage":"Get in touch with me using the form below: ",
+    "name": "Ahmad",
+    "occupation": "Full Stack Developer",
+    "description": "rapidly developing flexible software solutions",
+    "image": "profilepic.jpg",
+    "bio": "I am currently an undergraduate at Duke University studying Computer Science. I am fascinated by all kinds of technology, especially in the automotive industry. Currently I am working to launch a food point donation application to tackle student food insecurity at Duke; I am also the president of GTHC, working alongside Duke Men's Basketball to develop a shift-scheduling application for students partaking in the annual tenting tradition. You can check these projects out and many more below!",
+    "contactmessage": "Get in touch with me using the form below: ",
     "email": "akhanduke@gmail.com",
     "phone": "",
-    "address":{
-      "street":"",
-      "city":"Chicago",
-      "state":"IL",
+    "address": {
+      "street": "",
+      "city": "Chicago",
+      "state": "IL",
       "zip": ""
     },
     "website": "",
-    "resumedownload":"./images/resume.pdf",
-    "social":[
+    "resumedownload": "./images/SWE.pdf",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/Kingkhan669",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/Kingkhan669",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/ahmadkhanduke/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ahmadkhanduke/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/Akhan221",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/Akhan221",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Some of my key skills include: Java, Python, JavaScript, React, HTML/CSS, Git, Linux, and computer hardware",
-    "education":[
+  "resume": {
+    "skillmessage": "Some of my key skills include: Java, Python, JavaScript, React, Ruby on Rails, Responsive CSS, Linux, and computer hardware",
+    "education": [
       {
-        "school":"Duke University",
-        "degree":"B.S in Computer Science",
-        "graduated":"May 2022",
-        "description":"Member of Muslim Student Association, Alpha Phi Omega, Questbridge Scholar"
+        "school": "Duke University",
+        "degree": "B.S in Computer Science",
+        "graduated": "May 2022",
+        "description": "Member of Muslim Student Association, Alpha Phi Omega, Questbridge Scholar"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Duke School of Medicine",
-        "title":"IT Technician",
-        "years":"January 2019 - Present",
-        "description":"Responsible for troubleshooting Windows and Apple products for Duke Medical students, as well as overseeing Duke Medical students' devices using Jamf and Airwatch to ensure security compliance"
+        "company": "Duke School of Medicine",
+        "title": "IT Technician",
+        "years": "January 2019 - Present",
+        "description": "Responsible for troubleshooting Windows and Apple products for Duke Medical students, as well as overseeing Duke Medical students' devices using Jamf and Airwatch to ensure security compliance"
       },
       {
-        "company":"GTHC: Game Tenting Help Center",
-        "title":"Frontend Developer",
-        "years":"December 2019 - Present",
-        "description":"I used ReactJS and React-router to develop the about pages for GTHC; I also set up Linux dual-boot development environments for team members and performed PR reviews with other members"
+        "company": "GTHC: Game Tenting Help Center",
+        "title": "Frontend Developer",
+        "years": "December 2019 - Present",
+        "description": "I used ReactJS and React-router to develop the about pages for GTHC; I also set up Linux dual-boot development environments for team members and performed PR reviews with other members"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Java",
-        "level":"70%"
+        "name": "Java",
+        "level": "70%"
       },
       {
-        "name":"Python",
-        "level":"70%"
+        "name": "Python",
+        "level": "70%"
       },
       {
-        "name":"ReactJs",
-        "level":"60%"
+        "name": "ReactJs",
+        "level": "60%"
       },
       {
-        "name":"HTML/CSS",
-        "level":"70%"
+        "name": "HTML/CSS",
+        "level": "70%"
       },
       {
-        "name":"Linux",
-        "level":"50%"
+        "name": "Linux",
+        "level": "50%"
       },
       {
-        "name":"Git",
-        "level":"60%"
+        "name": "Git",
+        "level": "60%"
       },
       {
-        "name":"Troubleshooting",
-        "level":"90%"
+        "name": "Troubleshooting",
+        "level": "90%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Team Pneutube",
-        "category":"Duke Health Project Engineer",
-        "image":"Duke_Health.png",
-        "url":""
+        "title": "Team Pneutube",
+        "category": "Duke Health Project Engineer",
+        "image": "Duke_Health.png",
+        "url": ""
       },
       {
-        "title":"Game Tenting Help Center",
-        "category":"Frontend Developer",
-        "image":"gthc.png",
-        "url":"https://github.com/GTHC"
+        "title": "Game Tenting Help Center",
+        "category": "Frontend Developer",
+        "image": "gthc.png",
+        "url": "https://github.com/GTHC"
       },
       {
-        "title":"The Green Path",
-        "category":"HackDuke 2019",
-        "image":"Green_Logo.png",
-        "url":"https://github.com/Akhan221/resource-saver"
+        "title": "The Green Path",
+        "category": "HackDuke 2019",
+        "image": "Green_Logo.png",
+        "url": "https://github.com/Akhan221/resource-saver"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
