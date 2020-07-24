@@ -79,10 +79,12 @@ class Resume extends Component {
               <ul>
                 <li>Python</li>
                 <li>JavaScript</li>
+                <li>jQuery</li>
                 <li>Java</li>
                 <li>Ruby on Rails</li>
                 <li>Node.js</li>
                 <li>React</li>
+                <li>React-Router</li>
                 <li>C</li>
                 <li>Ruby</li>
                 <li>PostgreSQL</li>
