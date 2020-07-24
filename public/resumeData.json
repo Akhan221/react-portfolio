@@ -99,16 +99,28 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Team Pneutube",
-        "category": "Duke Health Project Engineer",
-        "image": "Duke_Health.png",
-        "url": ""
+        "title": "Feed Every Devil",
+        "category": "Head Developer",
+        "image": "FEDlogo.png",
+        "url": "https://dfp-test.cloud.duke.edu/"
       },
       {
         "title": "Game Tenting Help Center",
-        "category": "Frontend Developer",
+        "category": "President",
         "image": "gthc.png",
-        "url": "https://github.com/GTHC"
+        "url": "https://gthc.io"
+      },
+      {
+        "title": "Work Together",
+        "category": "Developer",
+        "image": "woto_logo.jpg",
+        "url": "https://wototime.com"
+      },
+      {
+        "title": "Team Pneutube",
+        "category": "Project Engineer",
+        "image": "Duke_Health.png",
+        "url": ""
       },
       {
         "title": "The Green Path",
