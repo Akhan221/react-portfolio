@@ -78,6 +78,9 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
+  font-weight: bold;
+  font: 20px/1.9em "librebaskerville-regular", serif;
+
 }
 header .banner-text hr {
   width: 60%;
