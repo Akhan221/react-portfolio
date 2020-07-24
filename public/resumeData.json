@@ -19,9 +19,9 @@
     "resumedownload": "./images/SWE.pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Kingkhan669",
-        "className": "fa fa-facebook"
+        "name": "email",
+        "url": "mailto:akhanduke@gmail.com",
+        "className": "fa fa-envelope"
       },
       {
         "name": "linkedin",
