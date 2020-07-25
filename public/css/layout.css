@@ -78,6 +78,9 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
   color: #fff;
+  font-weight: bold;
+  font: 20px/1.9em "librebaskerville-regular", serif;
+
 }
 header .banner-text hr {
   width: 60%;
@@ -228,6 +231,7 @@ ul#nav li.current a {
 #about p {
   line-height: 30px;
   color: #fff;
+  font-size: 16px;
 }
 #about .profile-pic {
   position: relative;
@@ -510,7 +514,7 @@ ul#nav li.current a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.portfolio-item .item-wrap a span {
   display: block;
   cursor: pointer;
 }
