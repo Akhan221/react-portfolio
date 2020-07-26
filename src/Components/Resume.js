@@ -76,29 +76,33 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <p>{skillmessage}</p>
 
-            <div id="skills">
+            <div id="main-skills">
               <ul>
                 <li>Python</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>React</li>
+                <li>HTML/CSS</li>
+                <li>Bootstrap UI</li>
+                <li>Computer Hardware</li>
+                <li>RESTful APIs</li>
+              </ul>
+            </div>
+
+            <div id="skills">
+              <ul>
                 <li>JavaScript</li>
                 <li>jQuery</li>
                 <li>Java</li>
-                <li>Ruby on Rails</li>
                 <li>Node.js</li>
-                <li>React</li>
                 <li>React-Router</li>
                 <li>C</li>
                 <li>Ruby</li>
                 <li>PostgreSQL</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Bootstrap UI</li>
                 <li>Semantic UI</li>
                 <li>Ubuntu</li>
-                <li>Git</li>
-                <li>RESTful API</li>
                 <li>JSON</li>
                 <li>Windows/MacOS Troubleshooting</li>
-                <li>Computer Hardware</li>
               </ul>
             </div>
           </div>
