@@ -1,55 +1,60 @@
-import React, { Component } from 'react';
-import { Modal, Image, Header } from 'semantic-ui-react';
+import React, { Component } from "react";
+import { Modal, Image, Header } from "semantic-ui-react";
 
 class Portfolio extends Component {
   render() {
-
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-
-            <Modal trigger={<a href="javascript:void(0)" title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>}>
-      <Modal.Header>{projects.title}</Modal.Header>
-    <Modal.Content image>
-      <Image wrapped size='medium' src={projectImage} />
-      <Modal.Description>
-      <Header>{projects.title}</Header>
-      <p>{projects.category}</p>
-      </Modal.Description>
-    </Modal.Content>
-  </Modal>
+    if (this.props.data) {
+      var projects = this.props.data.projects.map(function (projects) {
+        var projectImage = "images/portfolio/" + projects.image;
+        return (
+          <div key={projects.title} className="columns portfolio-item">
+            <div className="item-wrap">
+              <Modal
+                trigger={
+                  <a href="javascript:void(0)" title={projects.title}>
+                    <img alt={projects.title} src={projectImage} />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>{projects.title}</h5>
+                        <p>{projects.category}</p>
+                      </div>
+                    </div>
+                    <div className="link-icon">
+                      <i className="fa fa-link"></i>
+                    </div>
+                  </a>
+                }
+              >
+                <Modal.Header>{projects.title}</Modal.Header>
+                <Modal.Content image>
+                  <Image wrapped size="medium" src={projectImage} />
+                  <Modal.Description>
+                    <Header>{projects.title}</Header>
+                    <p>{projects.category}</p>
+                  </Modal.Description>
+                </Modal.Content>
+              </Modal>
+            </div>
           </div>
-        </div>
-      })
+        );
+      });
     }
 
     return (
       <section id="portfolio">
-
-      <div className="row">
-
-         <div className="twelve columns collapsed">
-
+        <div className="row">
+          <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
-                {projects}
-
+            <div
+              id="portfolio-wrapper"
+              className="bgrid-thirds s-bgrid-thirds cf"
+            >
+              {projects}
             </div>
           </div>
-      </div>
-   </section>
+        </div>
+      </section>
     );
   }
 }
