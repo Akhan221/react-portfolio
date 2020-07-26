@@ -47,7 +47,7 @@
     ],
     "work": [
       {
-        "company": "Duke Office of Information Technology",
+        "company": "Food Point Donation Program: Feed Every Devil",
         "title": "Software Engineer",
         "years": "May 2020 - Present",
         "description": "Developed web application using Ruby on Rails, jQuery, and Transact API to allow students to donate food points to those in need. Authored onboarding documenation for future developers, held daily standups to delegate programming tasks to team members"
@@ -62,7 +62,7 @@
         "company": "GTHC: Game Tenting Help Center",
         "title": "President",
         "years": "December 2019 - Present",
-        "description": "Responsible for developer recruiting/onboarding, application deployment, application design, task delegation among SW teams and assisting members with programming difficulties as needed"
+        "description": "Responsible for developer recruiting/onboarding, application design, task delegation among SW teams and assisting members with programming difficulties as needed"
       }
     ],
     "skills": [
