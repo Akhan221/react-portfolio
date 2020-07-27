@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import pctank from "../pc_tank.jpg";
 
 class About extends Component {
   render() {
@@ -20,17 +19,14 @@ class About extends Component {
     return (
       <section id="about">
         <div className="row">
-          <div class="twelve columns">
-            {" "}
+          <div className="three columns">
             <img
               className="profile-pic"
               src={profilepic}
               alt="Ahmad Khan Profile Pic"
             />
           </div>
-        </div>
-        <div className="row" style={{ maxWidth: "1440px" }}>
-          <div className="eight columns main-col">
+          <div className="nine columns main-col">
             <h2>About Me</h2>
 
             <p>{bio}</p>
@@ -57,14 +53,6 @@ class About extends Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="four columns">
-            <figure className="text-center">
-              <img className="pc-tank" src={pctank} alt="PC Tank" />
-              <figcaption class="text-center">
-                A computer aquarium I built - with live Goldfish!
-              </figcaption>
-            </figure>
           </div>
         </div>
       </section>
