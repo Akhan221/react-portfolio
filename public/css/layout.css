@@ -336,6 +336,19 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 
+#resume .main-skills {
+  color: black;
+  font-weight: bold;
+}
+
+#resume .extra-skills {
+  padding-top: 24px;
+}
+
+#resume .skill p {
+  margin-bottom: 12px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

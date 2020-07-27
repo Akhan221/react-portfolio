@@ -74,36 +74,38 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
+            <p>{skillmessage} </p>
+            <span className="main-skills">
+              Python, Ruby on Rails, React, HTML5/CSS3, Bootstrap, Windows/Mac
+              Troubleshooting, RESTful APIs
+            </span>
 
-            <div id="main-skills">
-              <ul>
-                <li>Python</li>
-                <li>Ruby</li>
-                <li>Ruby on Rails</li>
-                <li>React</li>
-                <li>HTML/CSS</li>
-                <li>Bootstrap UI</li>
-                <li>Computer Hardware</li>
-                <li>RESTful APIs</li>
-              </ul>
-            </div>
+            <div className="extra-skills">
+              <p>
+                I've also worked with these languages/libraries in the past:
+              </p>
+              <div className="six columns">
+                <h4>Frontend</h4>
+                <ul className="text-left">
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>React-Router</li>
+                  <li>Semantic UI</li>
+                  <li>JSON</li>
+                </ul>
+              </div>
 
-            <div id="skills">
-              <ul>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Java</li>
-                <li>Node.js</li>
-                <li>React-Router</li>
-                <li>C</li>
-                <li>Ruby</li>
-                <li>PostgreSQL</li>
-                <li>Semantic UI</li>
-                <li>Ubuntu</li>
-                <li>JSON</li>
-                <li>Windows/MacOS Troubleshooting</li>
-              </ul>
+              <div className="six columns">
+                <h4>Backend</h4>
+
+                <ul className="text-left">
+                  <li>Java</li>
+                  <li>Node.js</li>
+                  <li>C</li>
+                  <li>PostgreSQL</li>
+                  <li>Ubuntu</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
