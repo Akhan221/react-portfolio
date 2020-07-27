@@ -4,6 +4,7 @@ class Resume extends Component {
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
+
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.school}>
@@ -24,7 +25,7 @@ class Resume extends Component {
               {work.title}
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
-            <p>{work.description}</p>
+            <p className="work-description">{work.description}</p>
           </div>
         );
       });
@@ -73,32 +74,36 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
+            <h3>{skillmessage} </h3>
+            <span className="main-skills">
+              Python, Ruby on Rails, React, HTML5/CSS3, Bootstrap, Windows/Mac
+              Troubleshooting, RESTful APIs
+            </span>
 
-            <div id="skills">
-              <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Java</li>
-                <li>Ruby on Rails</li>
-                <li>Node.js</li>
-                <li>React</li>
-                <li>React-Router</li>
-                <li>C</li>
-                <li>Ruby</li>
-                <li>PostgreSQL</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Bootstrap UI</li>
-                <li>Semantic UI</li>
-                <li>Ubuntu</li>
-                <li>Git</li>
-                <li>RESTful API</li>
-                <li>JSON</li>
-                <li>Windows/MacOS Troubleshooting</li>
-                <li>Computer Hardware</li>
-              </ul>
+            <div className="extra-skills">
+              <h4>I've also worked with these tools in the past:</h4>
+              <div className="six columns">
+                <h5>Frontend</h5>
+                <ul className="text-left">
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>React-Router</li>
+                  <li>Semantic UI</li>
+                  <li>JSON</li>
+                </ul>
+              </div>
+
+              <div className="six columns">
+                <h5>Backend</h5>
+
+                <ul className="text-left">
+                  <li>Java</li>
+                  <li>Node.js</li>
+                  <li>C</li>
+                  <li>PostgreSQL</li>
+                  <li>Ubuntu</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
