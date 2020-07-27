@@ -337,12 +337,11 @@ ul#nav li.current a {
 }
 
 #resume .main-skills {
-  color: black;
-  font-weight: bold;
+  font-size: 16px;
 }
 
-#resume .extra-skills {
-  padding-top: 24px;
+#resume .extra-skills h4 {
+  padding: 24px 0px;
 }
 
 #resume .skill p {

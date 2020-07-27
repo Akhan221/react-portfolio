@@ -74,18 +74,16 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage} </p>
+            <h3>{skillmessage} </h3>
             <span className="main-skills">
               Python, Ruby on Rails, React, HTML5/CSS3, Bootstrap, Windows/Mac
               Troubleshooting, RESTful APIs
             </span>
 
             <div className="extra-skills">
-              <p>
-                I've also worked with these languages/libraries in the past:
-              </p>
+              <h4>I've also worked with these tools in the past:</h4>
               <div className="six columns">
-                <h4>Frontend</h4>
+                <h5>Frontend</h5>
                 <ul className="text-left">
                   <li>JavaScript</li>
                   <li>jQuery</li>
@@ -96,7 +94,7 @@ class Resume extends Component {
               </div>
 
               <div className="six columns">
-                <h4>Backend</h4>
+                <h5>Backend</h5>
 
                 <ul className="text-left">
                   <li>Java</li>
