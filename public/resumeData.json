@@ -102,19 +102,19 @@
         "title": "Feed Every Devil",
         "category": "Skills Used: Ruby on Rails, JavaScript, jQuery, PostgreSQL, REST API",
         "image": "FEDlogo.png",
-        "url": "https://dfp-test.cloud.duke.edu/"
+        "url": "fed"
       },
       {
         "title": "Game Tenting Help Center",
         "category": "Skills Used: React, React-Router, Ruby on Rails, Ubuntu",
         "image": "gthc.png",
-        "url": "https://gthc.io"
+        "url": "gthc"
       },
       {
         "title": "Work Together",
         "category": "React, React-Router, Node.js",
         "image": "woto_logo.jpg",
-        "url": "https://wototime.com"
+        "url": "woto"
       }
     ]
   },
