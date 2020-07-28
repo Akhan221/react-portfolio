@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Portfolio from "./Components/Portfolio";
+import FED from "./Components/FED";
 
 class App extends Component {
   constructor(props) {
@@ -43,19 +44,24 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
-        <Switch>
-        <Route path="/" render={props => 
-        <div>
-          <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Footer data={this.state.resumeData.main} />
-          </div>
-          } />
+        <div className="App">
+          <Switch>
+            <Route path="/fed" component={FED} />
+
+            <Route
+              path="/"
+              render={(props) => (
+                <div>
+                  <Header data={this.state.resumeData.main} />
+                  <About data={this.state.resumeData.main} />
+                  <Resume data={this.state.resumeData.resume} />
+                  <Portfolio data={this.state.resumeData.portfolio} />
+                  <Footer data={this.state.resumeData.main} />
+                </div>
+              )}
+            />
           </Switch>
-      </div>
+        </div>
       </Router>
     );
   }
