@@ -100,7 +100,7 @@
     "projects": [
       {
         "title": "Feed Every Devil",
-        "category": "Head Developer",
+        "category": "Skills Used: Ruby on Rails, JavaScript, jQuery, PostgreSQL",
         "image": "FEDlogo.png",
         "url": "https://dfp-test.cloud.duke.edu/"
       },
@@ -115,18 +115,6 @@
         "category": "Developer",
         "image": "woto_logo.jpg",
         "url": "https://wototime.com"
-      },
-      {
-        "title": "Team Pneutube",
-        "category": "Project Engineer",
-        "image": "Duke_Health.png",
-        "url": ""
-      },
-      {
-        "title": "The Green Path",
-        "category": "HackDuke 2019",
-        "image": "Green_Logo.png",
-        "url": "https://github.com/Akhan221/resource-saver"
       }
     ]
   },
