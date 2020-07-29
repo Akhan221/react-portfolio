@@ -36,6 +36,12 @@ class FED extends Component {
               wireframes based on the official Duke style requirements.{" "}
             </p>
           </div>
+          <div className="six columns">
+            <img className="header-pic" src="https://imgur.com/MFBm4X5.png" />
+          </div>
+          <div className="six columns">
+            <img className="header-pic" src="https://imgur.com/yQ75vRI.png" />
+          </div>
         </div>
         <div className="row education">
           <div className="three columns header-col">
@@ -57,6 +63,12 @@ class FED extends Component {
               implement the API using the Nokogiri gem.{" "}
             </p>
           </div>
+          <div className="six columns">
+            <img className="header-pic" src="https://imgur.com/oYY56Np.png" />
+          </div>
+          <div className="six columns">
+            <img className="header-pic" src="https://imgur.com/4jSFESS.png" />
+          </div>
         </div>
         <div className="row skill">
           <div className="three columns header-col">
@@ -67,12 +79,10 @@ class FED extends Component {
 
           <div className="nine columns main-col">
             <h4>
-              {" "}
               Here is the final product that my team created by the end of the
-              internship:{" "}
+              internship:
             </h4>
             <p>
-              {" "}
               By the end of the week, a viable product was created. Our
               application consists of a portal allowing students to donate their
               food points, as well as an online application for students to
@@ -81,8 +91,15 @@ class FED extends Component {
               approve/decline applicant requests, as well as view individual
               user transaction history. We are planning to transition into the
               user testing phase once students return to campus and hopefully
-              launch the application by Spring 2021.{" "}
+              launch the application by Spring 2021.
             </p>
+          </div>
+          <div className="six columns">
+            <img className="header-pic" src="https://imgur.com/hkJ9qHS.png" />
+            <img className="header-pic" src="https://imgur.com/0ky8x2x.png" />
+          </div>
+          <div className="six columns">
+            <img className="header-pic" src="https://imgur.com/Lggaz8b.png" />
           </div>
         </div>
       </section>
