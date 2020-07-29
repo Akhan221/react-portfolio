@@ -11,6 +11,13 @@ class FED extends Component {
               Skills used: Ruby on Rails, RSpec, jQuery, JavaScript, HTML/CSS,
               Bootstrap, Transact REST API
             </p>
+
+            <a href="https://dfp-test.cloud.duke.edu" target="_blank">
+              <h6>
+                {" "}
+                <i className="fa fa-link"></i> Check out the project here
+              </h6>
+            </a>
           </div>
           <img className="header-pic" src="https://imgur.com/rrtJc8O.png" />
         </div>
