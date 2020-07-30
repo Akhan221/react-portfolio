@@ -29,17 +29,23 @@ class FED extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <h4> Here is the design process my team went through: </h4>
+            <h4> Creating an application from scratch: </h4>
             <p>
-              Initially, it was very overwhelming to try and come up with a
-              design from scratch for the Feed Every Devil website, especially
-              since there were no policies implemented at the time. The FED
-              developer team turned to the project lead for advice, and after a
-              week of discussion, the tech stack was decided to be Ruby on Rails
+              In order to combat food insecurity on Duke's campus, the Feed
+              Every Devil (FED) team decided that a website allowing students to
+              donate or request food points would be the most effective
+              approach. However, after extensive research our team could not
+              find any food insecurity programs similar to Duke's environment.
+              Consequently, the FED team turned to the Duke Styles Guide for
+              reference and decided that Bootstrap would alleviate design
+              frustrations. During this initial design & research phase the team
+              also explored options for the optimal tech stack to use for the
+              application; the tech stack was decided to be the Ruby on Rails
               web framework using JavaScript, HTML/CSS in the frontend alongside
-              Bootstrap UI library and PostgreSQL as the backend database. While
-              deliberating over the tech stack, the team also began drawing up
-              wireframes based on the official Duke style requirements.
+              the Bootstrap UI library and PostgreSQL as the backend database.
+              While deliberating over the tech stack, the team also began
+              drawing up wireframes based on the Duke Style Guide requirements,
+              as well as creating multiple iterations of team logos.
             </p>
           </div>
           <div className="six columns">
@@ -57,16 +63,24 @@ class FED extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <h4> Here is the development cycle that my team followed: </h4>
+            <h4> Responsive Web Design & Admin Interface: </h4>
             <p>
-              After initial planning, my team split up work on the first
-              iteration of the application by assigning pages to a majority of
-              the team while a teammate and I worked on the backend. One of the
-              largest obstacles in backend development was figuring out how to
-              use the Duke Transact API that handles food point transactions;
-              the API had little documentation and used XML but after reaching
-              out to other project leads my teammate and I were able to
-              implement the API using the Nokogiri gem.
+              Throughout the primary development phase of FED, I was responsible
+              for responsive frontend design, implementing an admin interface,
+              and guiding the team with daily standups and Git training. After
+              the first iteration of webpages were complete, I went through
+              every individual page and made it mobile-responsive using
+              Bootstrap's grid and breakpoints system, as well as CSS media
+              queries. The admin backend interface was created using Ruby and
+              the Transact API which managed donation / request transactions as
+              well as account balances. The Transact API was initially difficult
+              to utilize due to limited documentation and the use of older
+              syntax (XML); this issue was rectified using the Nokogiri Ruby gem
+              that parses XML for data as specified by Ruby. In order to
+              maintain development pace in the limited ten week deadline, our
+              team held daily standups where I delegated tasks to team members
+              and assisted with any technical difficulties as needed such as Git
+              conflicts, merge requests.
             </p>
           </div>
           <div className="six columns">
@@ -84,20 +98,17 @@ class FED extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <h4>
-              Here is the final product that my team created by the end of the
-              internship:
-            </h4>
+            <h4>Fully Functional Application Deployed:</h4>
             <p>
-              By the end of the week, a viable product was created. Our
-              application consists of a portal allowing students to donate their
-              food points, as well as an online application for students to
-              request food points. There is also an admin interface allowing
-              admins to view donation/distribution records, view and
-              approve/decline applicant requests, as well as view individual
-              user transaction history. We are planning to transition into the
-              user testing phase once students return to campus and hopefully
-              launch the application by Spring 2021.
+              By the end of the ten-week Codeplus program, the FED team deployed
+              a web application capable of handling student donations & requests
+              and storing all transaction records in a PostgreSQL database; all
+              transactions worked directly with Duke's food point systems,
+              allowing users to make donations with their own meal plan's food
+              points. In the final week of the program, the FED team was
+              selected out of ten teams to present the program to Duke's head IT
+              Advisory Council where it received great praise and got approved
+              for official deployment on Duke's campus.
             </p>
           </div>
           <div className="six columns">
