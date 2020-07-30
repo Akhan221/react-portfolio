@@ -14,7 +14,6 @@ class FED extends Component {
 
             <a href="https://dfp-test.cloud.duke.edu" target="_blank">
               <h6>
-                {" "}
                 <i className="fa fa-link"></i> Check out the project here
               </h6>
             </a>
@@ -40,7 +39,7 @@ class FED extends Component {
               web framework using JavaScript, HTML/CSS in the frontend alongside
               Bootstrap UI library and PostgreSQL as the backend database. While
               deliberating over the tech stack, the team also began drawing up
-              wireframes based on the official Duke style requirements.{" "}
+              wireframes based on the official Duke style requirements.
             </p>
           </div>
           <div className="six columns">
@@ -67,7 +66,7 @@ class FED extends Component {
               use the Duke Transact API that handles food point transactions;
               the API had little documentation and used XML but after reaching
               out to other project leads my teammate and I were able to
-              implement the API using the Nokogiri gem.{" "}
+              implement the API using the Nokogiri gem.
             </p>
           </div>
           <div className="six columns">

@@ -100,21 +100,21 @@
     "projects": [
       {
         "title": "Feed Every Devil",
-        "category": "Skills Used: Ruby on Rails, JavaScript, jQuery, PostgreSQL, REST API",
+        "category": "Head Developer",
         "image": "FEDlogo.png",
         "url": "fed"
       },
       {
         "title": "Game Tenting Help Center",
-        "category": "Skills Used: React, React-Router, Ruby on Rails, Ubuntu",
+        "category": "President",
         "image": "gthc.png",
-        "url": "gthc"
+        "url": "https://gthc.io"
       },
       {
         "title": "Work Together",
-        "category": "React, React-Router, Node.js",
+        "category": "Developer",
         "image": "woto_logo.jpg",
-        "url": "woto"
+        "url": "https://woto.app"
       }
     ]
   },
