@@ -75,10 +75,15 @@ class Resume extends Component {
 
           <div className="nine columns main-col">
             <h3>{skillmessage} </h3>
-            <span className="main-skills">
-              Python, Ruby on Rails, React, HTML5/CSS3, Bootstrap, Windows/Mac
-              Troubleshooting, RESTful APIs
-            </span>
+            <ul className=" main-skills">
+              <li> Python</li>
+              <li>Ruby on Rails</li>
+              <li>React</li>
+              <li>HTML5/CSS3</li>
+              <li>Bootstrap</li>
+              <li>Windows/Mac Troubleshooting</li>
+              <li>RESTful APIs</li>
+            </ul>
 
             <div className="extra-skills">
               <h4>I've also worked with these tools in the past:</h4>
