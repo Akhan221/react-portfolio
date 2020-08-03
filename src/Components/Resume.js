@@ -78,8 +78,7 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <h3>{skillmessage} </h3>
             <span className="main-skills">
-              Python, Ruby on Rails, React, HTML5/CSS3, Bootstrap, Windows/Mac
-              Troubleshooting, RESTful APIs
+              Python, Ruby, HTML/CSS/JavaScript, Ruby on Rails, PostgreSQL, React, Bootstrap, Windows/Mac Troubleshooting
             </span>
 
             <div className="extra-skills">
@@ -87,11 +86,12 @@ class Resume extends Component {
               <div className="six columns">
                 <h5>Frontend</h5>
                 <ul className="text-left">
-                  <li>JavaScript</li>
                   <li>jQuery</li>
                   <li>React-Router</li>
                   <li>Semantic UI</li>
                   <li>JSON</li>
+                  <li>SASS</li>
+                  <li>Figma</li>
                 </ul>
               </div>
 
@@ -101,8 +101,9 @@ class Resume extends Component {
                 <ul className="text-left">
                   <li>Java</li>
                   <li>Node.js</li>
+                  <li>Express</li>
                   <li>C</li>
-                  <li>PostgreSQL</li>
+                  <li>REST APIs</li>
                   <li>Ubuntu</li>
                 </ul>
               </div>

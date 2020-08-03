@@ -337,7 +337,9 @@ ul#nav li.current a {
 }
 
 #resume .main-skills {
-  font-size: 16px;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
 }
 
 #resume .extra-skills h4 {
