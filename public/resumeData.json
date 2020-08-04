@@ -102,18 +102,21 @@
       {
         "title": "Feed Every Devil",
         "category": "Head Developer",
+        "description": "FED is a web application built using Ruby on Rails that allows students to donate or request food points; admins are able to handle these transactions and view transaction history",
         "image": "FEDlogo.png",
         "url": "fed"
       },
       {
         "title": "Game Tenting Help Center",
         "category": "President",
+        "description": "Game Tenting Help Center is a mobile & web shift scheduling application that consolidates everything related to K-Ville tenting in one place including line monitor updates, game information, and shift scheduling",
         "image": "gthc.png",
         "url": "https://gthc.io"
       },
       {
         "title": "Work Together",
         "category": "Developer",
+        "description": "Woto is a web application that makes office hours a much better experience for students and TAs by providing multiple ways for students to get help during office hours and a plethora of statistics for TAs ",
         "image": "woto_logo.jpg",
         "url": "https://woto.app"
       }
