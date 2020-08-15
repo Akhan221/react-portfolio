@@ -337,7 +337,9 @@ ul#nav li.current a {
 }
 
 #resume .main-skills {
-  font-size: 16px;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
 }
 
 #resume .extra-skills h4 {
@@ -575,8 +577,9 @@ ul#nav li.current a {
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
-  color: #c6c7c7;
+  padding-top: 12px;
+  font: 16px/18px "opensans-light", sans-serif;
+  color: #ffffff;
   margin-bottom: 0;
 }
 

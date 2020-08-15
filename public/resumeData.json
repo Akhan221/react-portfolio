@@ -3,7 +3,7 @@
     "fullname": "Ahmad Khan",
     "name": "Ahmad",
     "occupation": "Full Stack Developer",
-    "description": "; I am currently a SWE for Duke OIT, developing a web application allowing students to request or donate their food points. I'm currently also working alongside Duke Men's Basketball to develop a web & mobile shift scheduling application. You can read more about these applications and my other works ",
+    "description": "; I am currently a Software Engineer for Duke OIT, developing a web application allowing students to request or donate their food points. I'm currently also working alongside Duke Men's Basketball to develop a web & mobile shift scheduling application. You can read more about these applications and my other work ",
     "image": "profilepic.jpg",
     "bio": "Hello! I'm an undergraduate at Duke University studying Computer Science. I am fascinated by all kinds of technology, especially software! I will take any and every opportunity that I can to learn, be it reading car manuals cover to cover or watching tech product reviews. In my free time I love going on bike rides, window shopping for shoes and building computers. My goal as a software engineer is to produce performant and responsive products but more importantly, work towards becoming a better developer and team member every day.",
     "contactmessage": "Get in touch with me using the form below: ",
@@ -16,7 +16,7 @@
       "zip": ""
     },
     "website": "",
-    "resumedownload": "https://www.dropbox.com/s/20unlkfjkm3ur8l/SWE%20-%20akhan.pdf?dl=0",
+    "resumedownload": "https://www.dropbox.com/s/siptff1xurl7snw/SWE%20Resume.pdf?dl=0",
     "social": [
       {
         "name": "email",
@@ -36,33 +36,34 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here are some of the skills that I am proficient in: ",
+    "skillmessage": "I am proficient in these skills: ",
     "education": [
       {
         "school": "Duke University",
         "degree": "B.S in Computer Science",
         "graduated": "May 2022",
+        "gpa": "Cumulative GPA: 3.53",
         "description": "President of Game Tenting Help Center, Member of Duke Applied Machine Learning, Muslim Student Association, Alpha Phi Omega, Questbridge Scholar, Summit United Mentor"
       }
     ],
     "work": [
       {
-        "company": "Food Point Donation Program: Feed Every Devil",
+        "company": "Duke Office of Information Technology",
         "title": "Software Engineer",
         "years": "May 2020 - Present",
-        "description": "Remote internship focused on Development of web application using Ruby on Rails, JavaScript, and Transact API allowing students to donate food points to food insecure peers. Responsible for authoring onboarding documentation & style guide for incoming members, developing responsive webpages, implementing Ruby backend for admin interface that reviews and approves requests for food points. Trained team to use Git and led daily standups to delegate tasks and guide application design decisions "
+        "description": "Remote internship focused on development of web application using Ruby on Rails, JavaScript, and Transact API allowing students to donate food points to food insecure peers. Responsible for writing documentation for admin users & new devlopers, developing responsive webpages. Implemented Ruby backend for admin system that reviews and approves requests for food points. Trained team in Git, led daily standups to delegate tasks and discuss application design."
       },
       {
         "company": "GTHC: Game Tenting Help Center",
         "title": "President",
         "years": "December 2019 - Present",
-        "description": "Responsible for team recruiting/onboarding, application infrastructure decisions, task delegation among SW teams and assisting members with programming tasks as needed"
+        "description": "Responsible for team recruiting/onboarding, application infrastructure decisions, task delegation among software teams, and reviewing feature pull requests. Overviewed software development, created responsive about pages using React & React-Router."
       },
       {
         "company": "Duke School of Medicine",
         "title": "IT Technician",
         "years": "January 2019 - Present",
-        "description": "Responsible for troubleshooting Windows and Apple products for Duke Medical students, as well as overseeing Duke Medical students' devices using Jamf and Airwatch to ensure security compliance"
+        "description": "Responsible for troubleshooting Windows and Apple products for Duke Medical students, as well as overseeing 1000+ Duke Medical students' devices using Jamf and Airwatch to ensure security compliance."
       }
     ],
     "skills": [
@@ -101,18 +102,21 @@
       {
         "title": "Feed Every Devil",
         "category": "Head Developer",
+        "description": "FED is a web application built using Ruby on Rails that allows students to donate or request food points; admins are able to handle these transactions and view transaction history",
         "image": "FEDlogo.png",
         "url": "fed"
       },
       {
         "title": "Game Tenting Help Center",
         "category": "President",
+        "description": "Game Tenting Help Center is a mobile & web shift scheduling application that consolidates everything related to K-Ville tenting in one place including line monitor updates, game information, and shift scheduling",
         "image": "gthc.png",
         "url": "https://gthc.io"
       },
       {
         "title": "Work Together",
         "category": "Developer",
+        "description": "Woto is a web application that makes office hours a much better experience for students and TAs by providing multiple ways for students to get help during office hours and a plethora of statistics for TAs ",
         "image": "woto_logo.jpg",
         "url": "https://woto.app"
       }
